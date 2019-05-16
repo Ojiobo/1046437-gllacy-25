@@ -63,7 +63,42 @@
 
       <section class="filters">
         <h2 class="title title--hidden">Фильтр продукции</h2>
-        <!-- Здесь будет форма -->
+        
+        <form class="filters__form" method="post" name="filters-form">
+          <p class="filter-sort">
+            Сортировка:<br>
+            <select class="filter-sort__list" name="popular">
+              <option name="sort-item" selected>по популярности</option>
+              <option name="sort-item">сначала недорогие</option>
+              <option name="sort-item">сначала дорогие</option>
+              <option name="sort-item">по жирности</option>
+            </select>
+          </p>
+
+          <p class="filter-price">
+            Цена: 100 руб. – 500 руб.<br>
+            <input type="range" name="price" min="0" max="500" step="1" value="500">
+          </p>
+
+          <p class="filter-fat">
+            Жирность:<br>
+            <input type="radio" name="fat" value="a1">0%<br>
+            <input type="radio" name="fat" value="a2" checked>до 10%<br>
+            <input type="radio" name="fat" value="a3">до 30%<br>
+            <input type="radio" name="fat" value="a4">выше 30%<br>
+          </p>
+
+          <p class="filter-fillers">
+            Наполнители:<br>
+            <input type="checkbox" name="option1" value="b1" checked> шоколадные<br>
+            <input type="checkbox" name="option2" value="b2" checked> сахарные присыпки<br>
+            <input type="checkbox" name="option3" value="b3"> фрукты<br>
+            <input type="checkbox" name="option4" value="b4"> сиропы<br>
+            <input type="checkbox" name="option5" value="b5"> джемы<br>
+          </p>
+
+          <input type="submit" name="send" value="Применить">
+        </form>
       </section>
 
       <section class="catalog">
@@ -237,12 +272,15 @@
             </article>
           </li>
         </ul>
+
         <ul class="pagination">
-          <li class="pagination__item pagination-item-active"><a>1</a></li>
+          <li class="pagination__item pag-prev--unactive"><a>Назад</a></li>
+          <li class="pagination__item pagination__item--active"><a>1</a></li>
           <li class="pagination__item"><a href="#">2</a></li>
           <li class="pagination__item"><a href="#">3</a></li>
           <li class="pagination__item"><a href="#">4</a></li>
           <li class="pagination__item"><a href="#">5</a></li>
+          <li class="pagination__item pag-next"><a href="#next">Вперед</a></li>
         </ul>
       </section>
 
