@@ -50,21 +50,17 @@
       <h1 class="visually-hidden">Магазин мороженого Gllacy Shop</h1>
 
       <section class="slider">
-        <form class="slider__form">
-          <fielset class="clider__fieldset">
-            <legend class="visually-hidden">Популярные наборы</legend>
+        <h2 class="visually-hidden">Популярные наборы</h2>
 
-            <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-1" aria-label="Кнопка показывающая первый слайд" checked>
-            <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-2" aria-label="Кнопка показывающая второй слайд">
-            <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-3" aria-label="Кнопка показывающая третий слайд">
+        <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-1" aria-label="Кнопка показывающая первый слайд" checked>
+        <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-2" aria-label="Кнопка показывающая второй слайд">
+        <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-3" aria-label="Кнопка показывающая третий слайд">
 
-            <div class="slider__controls">
-              <label class="slider__label" for="btn-1"></label>
-              <label class="slider__label" for="btn-2"></label>
-              <label class="slider__label" for="btn-3"></label>
-            </div>
-          </fielset>
-        <form>
+        <div class="slider__controls">
+          <label class="slider__label" for="btn-1"></label>
+          <label class="slider__label" for="btn-2"></label>
+          <label class="slider__label" for="btn-3"></label>
+        </div>
 
         <div class="slider__slides">
           <div class="slide slide-1">
@@ -287,9 +283,10 @@
     <section class="pop-up pop-up-login">
       <form class="pop-up-login__form" method="get" name="pop-up-login" action="https://echo.htmlacademy.ru">
         <fieldset class="pop-up-login__fieldset">
+          <legend class="visually-hidden">Форма для входа в учётную запись</legend>
           <input class="pop-up-login__input" type="text" name="pop-up-login-e-mail" placeholder="Электронная почта" aria-label="Поле для ввода адреса электронной почты пользователя"><br>
           <input class="pop-up-login__input" type="text" name="pop-up-login-password" placeholder="Пароль" aria-label="Поле для ввода пароля учетной записи пользователя"><br>
-          <button class="pop-up-login__btn" type="submit">Войти</button>
+          <button class="btn pop-up-login__btn" type="submit">Войти</button>
         </fieldset>
       </form>
       <p class="pop-up-login__links">
@@ -298,6 +295,17 @@
       </p>
     </section>
 
-
+    <section class="modal modal-feedback">
+      <p>Мы обязательно вам ответим!</p>
+      <form class="modal-feedback__form" method="get" name="modal-feedback" action="https://echo.htmlacademy.ru">
+        <fieldset class="modal-feedback__fieldset">
+          <legend class="visually-hidden">Форма для обратной связи</legend>
+          <input class="modal-feedback__input" type="text" name="modal-feedback-name" placeholder="Как вас зовут?"><br>
+          <input class="modal-feedback__input" type="text" name="modal-feedback-e-mail" placeholder="Ваша почта для ответа?"><br>
+          <textarea class="modal-feedback__textarea" type="modal-feedback-textarea" name="modal-feedback-comment" placeholder="Напишите что-нибудь..." rows="5"></textarea><br>
+          <button class="btn modal-feedback__btn" type="submit">Отправить</button>
+        </fieldset>
+      </form>
+    </section>
   </body>
 </html>
