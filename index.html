@@ -50,17 +50,21 @@
       <h1 class="visually-hidden">Магазин мороженого Gllacy Shop</h1>
 
       <section class="slider">
-        <h2 class="visually-hidden">Популярные наборы</h2>
+        <form class="slider__form">
+          <fielset class="clider__fieldset">
+            <legend class="visually-hidden">Популярные наборы</legend>
 
-        <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-1" checked>
-        <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-2">
-        <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-3">
+            <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-1" aria-label="Кнопка показывающая первый слайд" checked>
+            <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-2" aria-label="Кнопка показывающая второй слайд">
+            <input class="slider__input visually-hidden" type="radio" name="toggle" id="btn-3" aria-label="Кнопка показывающая третий слайд">
 
-        <div class="slider__controls">
-          <label class="slider__label" for="btn-1"></label>
-          <label class="slider__label" for="btn-2"></label>
-          <label class="slider__label" for="btn-3"></label>
-        </div>
+            <div class="slider__controls">
+              <label class="slider__label" for="btn-1"></label>
+              <label class="slider__label" for="btn-2"></label>
+              <label class="slider__label" for="btn-3"></label>
+            </div>
+          </fielset>
+        <form>
 
         <div class="slider__slides">
           <div class="slide slide-1">
