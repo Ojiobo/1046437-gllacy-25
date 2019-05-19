@@ -197,7 +197,7 @@
         <p>Подпишитесь на&nbsp;нашу сладкую рассылку и&nbsp;будете всегда в&nbsp;курсе всего самого вкусного, что у&nbsp;нас происходит. Обещаем не&nbsp;спамить и&nbsp;не&nbsp;слать всякой ненужной ерунды. Честно =)</p>
 
         <form class="subscribe__form subscribe-form" method="get" name="subscribe" action="https://echo.htmlacademy.ru">
-          <input class="subscribe-form__input" type="text" name="email" placeholder="Электронная почта">
+          <input class="subscribe-form__input" type="text" name="email" placeholder="Электронная почта" aria-label="Поле для ввода адреса электронной почты пользователя">
           <button class="btn subscribe-form__btn" type="submit" value="send-sub">Отправить</button>
         </form>
       </section>
@@ -260,24 +260,38 @@
 
     </footer>
 
-    <section class="pop-up catalog-dropdown">
-      <ul class="catalog-dropdown__list">
-        <li class="catalog-dropdown__item dropdown-item">
+    <section class="pop-up pop-up-catalog-dropdown">
+      <ul class="pop-up-catalog-dropdown__list">
+        <li class="pop-up-catalog-dropdown__item dropdown-item">
           <a class="dropdown-item__link" href="#">Новинки</a>
         </li>
-        <li class="catalog-dropdown__item dropdown-item">
+        <li class="pop-up-catalog-dropdown__item dropdown-item">
           <a class="dropdown-item__link" href="#">Сливочное</a>
         </li>
-        <li class="catalog-dropdown__item dropdown-item">
+        <li class="pop-up-catalog-dropdown__item dropdown-item">
           <a class="dropdown-item__link" href="#">Щербеты</a>
         </li>
-        <li class="catalog-dropdown__item dropdown-item">
+        <li class="pop-up-catalog-dropdown__item dropdown-item">
           <a class="dropdown-item__link" href="#">Фруктовый лед</a>
         </li>
-        <li class="catalog-dropdown__item dropdown-item">
+        <li class="pop-up-catalog-dropdown__item dropdown-item">
           <a class="dropdown-item__link" href="#">Мелорин</a>
         </li>
       </ul>
+    </section>
+
+    <section class="pop-up pop-up-login">
+      <form class="pop-up-login__form" method="get" name="pop-up-login" action="https://echo.htmlacademy.ru">
+        <fieldset class="pop-up-login__fieldset">
+          <input class="pop-up-login__input" type="text" name="pop-up-login-e-mail" placeholder="Электронная почта" aria-label="Поле для ввода адреса электронной почты пользователя"><br>
+          <input class="pop-up-login__input" type="text" name="pop-up-login-password" placeholder="Пароль" aria-label="Поле для ввода пароля учетной записи пользователя"><br>
+          <button class="pop-up-login__btn" type="submit">Войти</button>
+        </fieldset>
+      </form>
+      <p class="pop-up-login__links">
+        <a class="pop-up-login__link" href="#">Забыли пароль?</a>
+        <a class="pop-up-login__link" href="#">Новая регистрация</a>
+      </p>
     </section>
   </body>
 </html>
