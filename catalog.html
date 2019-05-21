@@ -82,28 +82,50 @@
 
           <fieldset class="filters__fieldset filter-fat">
             <legend class="filters-form__caption">Жирность:</legend>
-            <input class="filter-fat__input fat-input-0 visually-hidden" type="radio" name="fat" id="fat-0" value="c1">
-            <label class="filter-fat__label fat-label-0" for="fat-0">0%</label><br>
-            <input class="filter-fat__input fat-input-10 visually-hidden" type="radio" name="fat" id="fat-10" value="c2" checked>
-            <label class="filter-fat__label fat-label-10" for="fat-10">до 10%</label><br>
-            <input class="filter-fat__input fat-input-30 visually-hidden" type="radio" name="fat" id="fat-30" value="c3">
-            <label class="filter-fat__label fat-label-30" for="fat-30">до 30%</label><br>
-            <input class="filter-fat__input fat-input-more30 visually-hidden" type="radio" name="fat" id="fat-more30" value="c4">
-            <label class="filter-fat__label fat-label-more30" for="fat-more30">выше 30%</label>
+            <ul class="filter-fat__list">
+              <li class="filter-fat__item">
+                <input class="filter-fat__input fat-input-0 visually-hidden" type="radio" name="fat" id="fat-0" value="c1">
+                <label class="filter-fat__label fat-label-0" for="fat-0">0%</label>
+              </li>
+              <li class="filter-fat__item">
+                <input class="filter-fat__input fat-input-10 visually-hidden" type="radio" name="fat" id="fat-10" value="c2" checked>
+                <label class="filter-fat__label fat-label-10" for="fat-10">до 10%</label>
+              </li>
+              <li class="filter-fat__item">
+                <input class="filter-fat__input fat-input-30 visually-hidden" type="radio" name="fat" id="fat-30" value="c3">
+                <label class="filter-fat__label fat-label-30" for="fat-30">до 30%</label>
+              </li>
+              <li class="filter-fat__item">
+                <input class="filter-fat__input fat-input-more30 visually-hidden" type="radio" name="fat" id="fat-more30" value="c4">
+                <label class="filter-fat__label fat-label-more30" for="fat-more30">выше 30%</label>
+              </li>
+            </ul>
           </fieldset>
 
           <fieldset class="filters__fieldset filter-fillers">
             <legend class="filters-form__caption">Наполнители:</legend>
-            <input class="filter-fillers__input fillers-input-chocolate visually-hidden" type="checkbox" name="chocolate" id="checkbox-chocolate"  value="d1" checked>
-            <label class="filter-fillers__label fillers-label-chocolate" for="checkbox-chocolate">шоколадные</label><br>
-            <input class="filter-fillers__input fillers-input-sugar visually-hidden" type="checkbox" name="sugar" id="checkbox-sugar" value="d2" checked>
-            <label class="filter-fillers__label fillers-label-sugar" for="checkbox-sugar">сахарные присыпки</label><br>
-            <input class="filter-fillers__input fillers-input-fruts visually-hidden" type="checkbox" name="fruts" id="checkbox-fruts" value="d3">
-            <label class="filter-fillers__label fillers-label-fruts" for="checkbox-fruts">фрукты</label><br>
-            <input class="filter-fillers__input fillers-input-sirop visually-hidden" type="checkbox" name="sirop" id="checkbox-sirop" value="d4">
-            <label class="filter-fillers__label fillers-label-sirop" for="checkbox-sirop">сиропы</label><br>
-            <input class="filter-fillers__input fillers-input-jam visually-hidden" type="checkbox" name="jam" id="checkbox-jam" value="d5">
-            <label class="filter-fillers__label fillers-label-jam" for="checkbox-jam">джемы</label><br>
+            <ul class="filter-fillers__list">
+              <li class="filter-fillers__item">
+                <input class="filter-fillers__input fillers-input-chocolate visually-hidden" type="checkbox" name="chocolate" id="checkbox-chocolate"  value="d1" checked>
+                <label class="filter-fillers__label fillers-label-chocolate" for="checkbox-chocolate">шоколадные</label>
+              </li>
+              <li class="filter-fillers__item">
+                <input class="filter-fillers__input fillers-input-sugar visually-hidden" type="checkbox" name="sugar" id="checkbox-sugar" value="d2" checked>
+                <label class="filter-fillers__label fillers-label-sugar" for="checkbox-sugar">сахарные присыпки</label>
+              </li>
+              <li class="filter-fillers__item">
+                <input class="filter-fillers__input fillers-input-fruts visually-hidden" type="checkbox" name="fruts" id="checkbox-fruts" value="d3">
+                <label class="filter-fillers__label fillers-label-fruts" for="checkbox-fruts">фрукты</label>
+              </li>
+              <li class="filter-fillers__item">
+                <input class="filter-fillers__input fillers-input-sirop visually-hidden" type="checkbox" name="sirop" id="checkbox-sirop" value="d4">
+                <label class="filter-fillers__label fillers-label-sirop" for="checkbox-sirop">сиропы</label>
+              </li>
+              <li class="filter-fillers__item">
+                <input class="filter-fillers__input fillers-input-jam visually-hidden" type="checkbox" name="jam" id="checkbox-jam" value="d5">
+                <label class="filter-fillers__label fillers-label-jam" for="checkbox-jam">джемы</label>
+              </li>
+            </ul>
           </fieldset>
 
           <button class="btn filters__btn" type="submit">Применить</button>
