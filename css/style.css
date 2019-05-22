@@ -1,0 +1,48 @@
+.pop-up,
+.modal,
+.card-product--hover {
+	display: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #fff;
+
+	background-color: #849d8f;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.page-nav {
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.page-nav__list,
+.catalog-dropdown__list,
+.interface-btns-list {
+	list-style: none;
+}
+
+.page-nav__link
