@@ -249,3 +249,31 @@ a {
 .weight-unit {
 	font-size: 30px;
 }
+
+/* Секция about */
+
+.about {
+	color: #323232;
+
+	background-color: #e9dec6;
+	background-image: url(../img/wafer.jpg);
+	background-repeat: no-repeat;
+}
+
+.about__lead {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #323232;
+}
+
+.about-list {
+	list-style: none;
+}
+
+.about__item {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #323232;
+}
