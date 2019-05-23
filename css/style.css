@@ -50,7 +50,7 @@ a {
 .page-nav__link {
 	color: #fff;
 
-	border-bottom: 1px solid #adbdb4;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .page-nav__link:hover {
@@ -90,6 +90,8 @@ a {
 .catalog-dropdown__link1 {
 	font-size: 14px;
 	font-weight: bold;
+
+	border-bottom: 
 }
 
 .catalog-dropdown__link:hover {
