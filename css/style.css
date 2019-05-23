@@ -87,11 +87,13 @@ a {
 	font-weight: 400;
 }
 
-.catalog-dropdown__link1 {
+.dropdown-item-first__link {
 	font-size: 14px;
 	font-weight: bold;
+}
 
-	border-bottom: 
+.dropdown-item-first {
+	border-bottom: 1px solid rgba(53, 53, 53, 0.2);
 }
 
 .catalog-dropdown__link:hover {
