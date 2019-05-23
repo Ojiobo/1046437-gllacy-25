@@ -155,3 +155,33 @@ a {
 .telephone__link:active {
 	color: #ffbc9e;
 }
+
+/* Слайдер */
+
+.slide {
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+.slide-title {
+	font-size: 60px;
+	line-height: 60.35px;
+}
+
+.btn-wrapper {
+	background-image: linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+}
+
+.slide__link {
+	font-size: 32px;
+	line-height: 44px;
+}
+
+.slide__link:hover {
+	background-color: rgba(255,255,255,0.2);
+}
+
+.slide__link:active {
+	background-color: rgba(0,0,0,0.07);
+}
