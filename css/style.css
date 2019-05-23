@@ -150,3 +150,8 @@ a {
 	color: #fff;
 	text-align: right;
 }
+
+.telephone__link:hover,
+.telephone__link:active {
+	color: #ffbc9e;
+}
