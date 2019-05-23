@@ -128,3 +128,21 @@ a {
 
 	background-color: #f8f7f4;
 }
+
+/* Информация в шапке */
+
+.work-time {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	color: #fff;
+	text-align: right;
+}
+
+.telephone {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #fff;
+	text-align: right;
+}
