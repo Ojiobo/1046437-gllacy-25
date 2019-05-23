@@ -217,3 +217,35 @@ a {
 	line-height: 24px;
 	color: #fff;
 }
+
+/* Каталог продукции */
+
+.catalog__list {
+	list-style: none;
+}
+
+.product__title .product__link {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	color: #fff;
+
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.product__link:hover,
+.product__link:active {
+	color: #ffbc9e;
+}
+
+.product__price {
+	font-size: 45px;
+	font-weight: bold;
+	line-height: 45px;
+	color: #fff;
+	text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5);
+}
+
+.weight-unit {
+	font-size: 30px;
+}
