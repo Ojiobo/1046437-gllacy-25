@@ -169,19 +169,26 @@ a {
 	line-height: 60.35px;
 }
 
-.btn-wrapper {
-	background-image: linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
-}
-
 .slide__link {
 	font-size: 32px;
 	line-height: 44px;
 }
 
-.slide__link:hover {
+/* Ораньжевые кнопки */
+
+.btn-wrapper {
+	display: inline-block;
+
+	background-image: linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+}
+
+.btn:hover {
 	background-color: rgba(255,255,255,0.2);
 }
 
-.slide__link:active {
+.btn:active {
 	background-color: rgba(0,0,0,0.07);
 }
+
+/* Секция акций */
+
