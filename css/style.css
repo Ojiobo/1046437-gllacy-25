@@ -265,15 +265,6 @@ button:active.btn::after {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/*
-a.product__link:hover,
-a.product__link:active,
-a.preview__link:hover,
-a.preview__link:active {
-	color: #ffbc9e;
-}
-*/
-
 .product__price {
 	font-size: 45px;
 	font-weight: bold;
@@ -321,4 +312,18 @@ a.preview__link:active {
 	color: #323232;
 
 	background-color: #fff;
+}
+
+.preview__title {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+}
+
+.preview__link {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+
+	border-bottom: 2px solid #353535;
 }
