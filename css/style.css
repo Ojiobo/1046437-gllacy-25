@@ -40,6 +40,7 @@ a.product__link:active,
 a.preview__link:hover,
 a.preview__link:active {
 	color: #ffbc9e;
+	border-color: #ffbc9e;
 }
 
 /* Ораньжевые кнопки */
@@ -364,4 +365,43 @@ button:active.btn::after {
 	color: #fff;
 
 	border: none;
+}
+
+/* Секция с картой и контактами */
+
+.contacts {
+	background-color: rgba(255, 255, 255, 0.98);
+}
+
+.contacts-info__text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #323232;
+}
+
+.contacts-info__address,
+.contacts-info__phone {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #323232;
+}
+
+.contacts-info__address {
+	font-style: normal;
+}
+
+.contacts-info__phone,
+.contacts-info__phone+.contacts-info__text {
+	line-height: 22px;
+}
+
+.contacts-info__btn{
+	padding: 13px 28px 13px 28px;
+
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #fff;
 }
