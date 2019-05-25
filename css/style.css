@@ -33,6 +33,15 @@ a {
 	color: #fff;
 }
 
+.telephone__link:hover,
+.telephone__link:active,
+a.product__link:hover,
+a.product__link:active,
+a.preview__link:hover,
+a.preview__link:active {
+	color: #ffbc9e;
+}
+
 /* Ораньжевые кнопки */
 
 .btn {
@@ -191,11 +200,6 @@ button:active.btn::after {
 	text-align: right;
 }
 
-.telephone__link:hover,
-.telephone__link:active {
-	color: #ffbc9e;
-}
-
 /* Слайдер */
 
 .slide {
@@ -261,10 +265,14 @@ button:active.btn::after {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.product__link:hover,
-.product__link:active {
+/*
+a.product__link:hover,
+a.product__link:active,
+a.preview__link:hover,
+a.preview__link:active {
 	color: #ffbc9e;
 }
+*/
 
 .product__price {
 	font-size: 45px;
@@ -304,4 +312,13 @@ button:active.btn::after {
 	font-weight: 400;
 	line-height: 22px;
 	color: #323232;
+}
+
+/* Секция превью поста из блога */
+
+.preview,
+.preview .preview__link {
+	color: #323232;
+
+	background-color: #fff;
 }
