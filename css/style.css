@@ -177,17 +177,37 @@ a {
 
 /* Ораньжевые кнопки */
 
-.btn-wrapper {
-	display: inline-block;
+.btn {
+	position: relative;
 
 	background-image: linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
 }
 
-.btn:hover {
+a:hover.btn::after,
+button:hover.btn::after {
+	content: "";
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
 	background-color: rgba(255,255,255,0.2);
 }
 
-.btn:active {
+a:active.btn::after,
+button:active.btn::after {
+	content: "";
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
 	background-color: rgba(0,0,0,0.07);
 }
 
