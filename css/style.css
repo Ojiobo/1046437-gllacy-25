@@ -217,7 +217,9 @@ button:active.btn::after {
 	padding: 16px 42px 16px 40px;
 
 	font-size: 32px;
+	font-weight: bold;
 	line-height: 44px;
+	color: #fff;
 	text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
 }
 
@@ -326,4 +328,40 @@ button:active.btn::after {
 	line-height: 30px;
 
 	border-bottom: 2px solid #353535;
+}
+
+/* Секция сбора почты для рассылки */
+
+.subscribe {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #5a5a5a;
+
+	background-color: #f8f7f4;
+}
+
+.subscribe-form__input {
+	height: 42px;
+
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999;
+
+	border: 1px solid rgb(178, 178, 178);
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	opacity: 0.52;
+}
+
+.subscribe-form__btn {
+	padding: 14px 19px 13px 19px;
+
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #fff;
+
+	border: none;
 }
