@@ -272,6 +272,14 @@ button:active.btn::after {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.product__image-wrapper {
+	width: 267px;
+	height: 267px;
+
+	border-radius: 50%;
+	overflow: hidden;
+}
+
 .product__price {
 	font-size: 45px;
 	font-weight: bold;
