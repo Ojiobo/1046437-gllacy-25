@@ -83,6 +83,8 @@ button:active.btn::after {
 	border-radius: 35px;
 }
 
+/* >>>>>>>>>>>>>>>>>>>> Ш А П К А <<<<<<<<<<<<<<<<<<<< */
+
 /* Меню основной навигации */
 
 .page-nav {
@@ -200,6 +202,8 @@ button:active.btn::after {
 	color: #fff;
 	text-align: right;
 }
+
+/* >>>>>>>>>>>>>>>>>>>> К О Н Т Е Н Т <<<<<<<<<<<<<<<<<<<< */
 
 /* Слайдер */
 
@@ -404,4 +408,12 @@ button:active.btn::after {
 	font-weight: bold;
 	line-height: 24px;
 	color: #fff;
+}
+
+/* >>>>>>>>>>>>>>>>>>>> П О Д В А Л <<<<<<<<<<<<<<<<<<<< */
+
+/* Соцсети */
+
+.socials {
+	list-style: none;
 }
