@@ -33,6 +33,46 @@ a {
 	color: #fff;
 }
 
+/* Ораньжевые кнопки */
+
+.btn {
+	position: relative;
+
+	background-image: linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+	box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+	border-radius: 35px;
+}
+
+a:hover.btn::after,
+button:hover.btn::after {
+	content: "";
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 35px;
+}
+
+a:active.btn::after,
+button:active.btn::after {
+	content: "";
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(0,0,0,0.07);
+	border-radius: 35px;
+}
+
 /* Меню основной навигации */
 
 .page-nav {
@@ -170,45 +210,11 @@ a {
 }
 
 .slide__link {
+	padding: 16px 42px 16px 40px;
+
 	font-size: 32px;
 	line-height: 44px;
 	text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
-}
-
-/* Ораньжевые кнопки */
-
-.btn {
-	position: relative;
-
-	background-image: linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
-}
-
-a:hover.btn::after,
-button:hover.btn::after {
-	content: "";
-
-	position: absolute;
-	top: 0;
-	left: 0;
-
-	width: 100%;
-	height: 100%;
-
-	background-color: rgba(255,255,255,0.2);
-}
-
-a:active.btn::after,
-button:active.btn::after {
-	content: "";
-
-	position: absolute;
-	top: 0;
-	left: 0;
-
-	width: 100%;
-	height: 100%;
-
-	background-color: rgba(0,0,0,0.07);
 }
 
 /* Секция акций */
@@ -232,6 +238,8 @@ button:active.btn::after {
 }
 
 .stock__link {
+	padding: 15px 24px 14px 22px;
+
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 24px;
