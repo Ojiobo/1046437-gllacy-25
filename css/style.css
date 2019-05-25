@@ -357,6 +357,7 @@ button:active.btn::after {
 .subscribe-form__input {
 	height: 42px;
 
+	font: inherit;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
@@ -426,3 +427,4 @@ button:active.btn::after {
 .socials {
 	list-style: none;
 }
+
