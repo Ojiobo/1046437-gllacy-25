@@ -43,6 +43,36 @@ a.preview__link:active {
 	border-color: #ffbc9e;
 }
 
+::-webkit-input-placeholder {
+	color: #999;
+}
+
+::-moz-placeholder {
+	color: #999;
+}
+
+:-ms-input-placeholder {
+	color: #999;
+            }
+
+:-moz-placeholder {
+	color: #999;
+}
+
+.input-text {
+	color: #323232;
+	font-weight: bold;
+}
+
+.input-text:hover {
+	border: 2px solid #c7c6c5;
+}
+
+.input-text:focus {
+	border: 2px solid #8fbdec;
+	outline: none;
+}
+
 /* Ораньжевые кнопки */
 
 .btn {
@@ -361,12 +391,10 @@ button:active.btn::after {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
-	color: #999999;
 
 	border: 1px solid rgb(178, 178, 178);
 	border-radius: 5px;
 	background-color: rgb(255, 255, 255);
-	opacity: 0.52;
 }
 
 .subscribe-form__btn {
@@ -427,4 +455,3 @@ button:active.btn::after {
 .socials {
 	list-style: none;
 }
-
