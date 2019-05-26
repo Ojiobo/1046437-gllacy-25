@@ -51,32 +51,39 @@ a.copyright__link:active {
 
 /* Состояния для текстовых полей */
 
-::-webkit-input-placeholder {
-	color: #999;
-}
+input[type="text"],
+input[type="password"] {
+	height: 42px;
 
-::-moz-placeholder {
-	color: #999;
-}
-
-:-ms-input-placeholder {
-	color: #999;
-            }
-
-:-moz-placeholder {
-	color: #999;
-}
-
-.input-text {
-	color: #323232;
+	font-size: 16px;
 	font-weight: bold;
+	line-height: 24px;
+	color: #323232;
+
+	border: 1px solid rgb(178, 178, 178);
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
 }
 
-.input-text:hover {
+input[type="text"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder {
+	color: #999;
+	font-weight: 400;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder {
+	color: #999;
+	font-weight: 400;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
 	border: 2px solid #c7c6c5;
 }
 
-.input-text:focus {
+input[type="text"]:focus,
+input[type="password"]:focus {
 	border: 2px solid #8fbdec;
 	outline: none;
 }
@@ -390,19 +397,6 @@ button:active.btn::after {
 	color: #5a5a5a;
 
 	background-color: #f8f7f4;
-}
-
-.subscribe-form__input {
-	height: 42px;
-
-	font: inherit;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-
-	border: 1px solid rgb(178, 178, 178);
-	border-radius: 5px;
-	background-color: rgb(255, 255, 255);
 }
 
 .subscribe-form__btn {
