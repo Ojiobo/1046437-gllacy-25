@@ -32,6 +32,13 @@ body {
 	background-color: #849d8f;
 }
 
+h1 {
+	font-size: 35px;
+	line-height: 41px;
+	font-weight: bold;
+	color: #fff;
+}
+
 /* Состояния для ссылок */
 
 a {
@@ -44,23 +51,6 @@ a:active {
 	color: #ffbc9e;
 	border-color: #ffbc9e;
 }
-
-/*
-.telephone__link:hover,
-.telephone__link:active,
-a.product__link:hover,
-a.product__link:active,
-a.preview__link:hover,
-a.preview__link:active,
-a.helpful__link:hover,
-a.helpful__link:active,
-a.copyright__link:hover,
-a.copyright__link:active {
-	color: #ffbc9e;
-	border-color: #ffbc9e;
-}
-*/
-
 
 /* Состояния для текстовых полей */
 
@@ -547,3 +537,26 @@ button:active.btn::after {
 	border: 0;
 	color: #fff;
 }
+
+/* Секция фильтров */
+
+.filters ul {
+	list-style: none;
+}
+
+.filters {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #fff;
+}
+
+.filters-form__caption {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	color: #fff;
+}
+
+
+
