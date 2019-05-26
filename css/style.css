@@ -28,6 +28,8 @@ body {
 	background-color: #849d8f;
 }
 
+/* Состояния для ссылок */
+
 a {
 	text-decoration: none;
 	color: #fff;
@@ -38,10 +40,16 @@ a {
 a.product__link:hover,
 a.product__link:active,
 a.preview__link:hover,
-a.preview__link:active {
+a.preview__link:active,
+a.helpful__link:hover,
+a.helpful__link:active,
+a.copyright__link:hover,
+a.copyright__link:active {
 	color: #ffbc9e;
 	border-color: #ffbc9e;
 }
+
+/* Состояния для текстовых полей */
 
 ::-webkit-input-placeholder {
 	color: #999;
@@ -169,12 +177,12 @@ button:active.btn::after {
 	font-weight: 400;
 }
 
-.dropdown-item-first__link {
+.catalog-dropdown__item:first-child .catalog-dropdown__link {
 	font-size: 14px;
 	font-weight: bold;
 }
 
-.dropdown-item-first {
+.catalog-dropdown__item:first-child {
 	border-bottom: 1px solid rgba(53, 53, 53, 0.2);
 }
 
@@ -454,4 +462,36 @@ button:active.btn::after {
 
 .socials {
 	list-style: none;
+}
+
+/* Вспомогательные ссылки для пользователей */
+
+.helpful {
+	list-style: none;
+}
+
+.helpful .helpful__link {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #fff;
+
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.helpful__item:first-child .helpful__link {
+	font-weight: bold;
+}
+
+/* Copyright */
+
+.copyright__text {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #fff;
+}
+
+.copyright__text .copyright__link {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
