@@ -226,7 +226,6 @@ button:active.btn::after {
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-.pop-up-page-search__btn:hover,
 .interface-btn:hover {
 	color: #323232;
 
