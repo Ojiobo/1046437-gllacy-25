@@ -1,3 +1,7 @@
+--------------------------------------------------------
+													INDEX
+--------------------------------------------------------
+
 .pop-up,
 .modal,
 .card-product--hover {
@@ -488,4 +492,15 @@ button:active.btn::after {
 
 .copyright__text .copyright__link {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+--------------------------------------------------------
+												INNER PAGE
+--------------------------------------------------------
+
+.breadcrumbs {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #fff;
 }
