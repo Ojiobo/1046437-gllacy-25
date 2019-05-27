@@ -32,7 +32,7 @@ body {
 	background-color: #849d8f;
 }
 
-h1 {
+.page-main h1 {
 	font-size: 35px;
 	line-height: 41px;
 	font-weight: bold;
