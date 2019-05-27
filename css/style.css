@@ -193,7 +193,7 @@ body {
 	font-weight: 400;
 }
 
-.catalog-dropdown__item:first-child .catalog-dropdown__link {
+.catalog-dropdown__item--new .catalog-dropdown__link {
 	font-size: 14px;
 	font-weight: bold;
 }
