@@ -353,8 +353,7 @@ body {
 
 /* Секция превью поста из блога */
 
-.preview,
-.preview .preview__link {
+.preview {
 	color: #323232;
 
 	background-color: #fff;
@@ -366,7 +365,8 @@ body {
 	line-height: 22px;
 }
 
-.preview__link {
+.preview .preview__link {
+	color: #323232;
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 30px;
