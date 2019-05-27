@@ -39,6 +39,12 @@ body {
 	color: #fff;
 }
 
+.list-style-reset {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
 /* Состояния для ссылок */
 
 .page-body a {
@@ -145,12 +151,6 @@ body {
 	font-size: 16px;
 	line-height: 18px;
 	color: #fff;
-}
-
-.page-nav__list,
-.catalog-dropdown__list,
-.interface-btns-list {
-	list-style: none;
 }
 
 .page-nav__link {
@@ -283,10 +283,6 @@ body {
 
 /* Секция акций */
 
-.stock__list {
-	list-style: none;
-}
-
 .stock__subtitle {
 	font-size: 35px;
 	font-weight: bold;
@@ -311,10 +307,6 @@ body {
 }
 
 /* Каталог продукции */
-
-.catalog__list {
-	list-style: none;
-}
 
 .product__link {
 	font-size: 16px;
@@ -359,10 +351,6 @@ body {
 	font-weight: 500;
 	line-height: 30px;
 	color: #323232;
-}
-
-.about-list {
-	list-style: none;
 }
 
 .about__item {
@@ -483,15 +471,9 @@ body {
 
 /* Соцсети */
 
-.socials {
-	list-style: none;
-}
+
 
 /* Вспомогательные ссылки для пользователей */
-
-.helpful {
-	list-style: none;
-}
 
 .helpful__link {
 	font-size: 13px;
@@ -529,7 +511,6 @@ body {
 /* Хлебные крошки */
 
 .breadcrumbs {
-	list-style: none;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 16px;
@@ -561,10 +542,6 @@ body {
 }
 
 /* Секция фильтров */
-
-.filters ul {
-	list-style: none;
-}
 
 .filters {
 	font-size: 16px;
