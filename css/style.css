@@ -380,9 +380,6 @@ body {
 /* Секция сбора почты для рассылки */
 
 .subscribe {
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 22px;
 	color: #5a5a5a;
 
 	background-color: #f8f7f4;
