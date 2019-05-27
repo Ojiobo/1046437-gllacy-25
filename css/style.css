@@ -443,7 +443,7 @@ body {
 .contacts-info__btn{
 	position: absolute;
 	top: 300px;
-	right:120px;
+	right: 120px;
 
 	padding: 13px 28px 13px 28px;
 
@@ -530,15 +530,13 @@ body {
 /* Секция фильтров */
 
 .filters {
-	font-size: 16px;
 	font-weight: 500;
 	line-height: 18px;
 	color: #fff;
 }
 
-.filters-form__caption {
+.filters__caption {
 	font-size: 14px;
-	font-weight: 500;
 	line-height: 16px;
 	color: #fff;
 }
