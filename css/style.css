@@ -351,12 +351,6 @@ body {
 	line-height: 30px;
 }
 
-.about__item {
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 22px;
-}
-
 /* Секция превью поста из блога */
 
 .preview,
