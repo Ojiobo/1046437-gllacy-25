@@ -162,21 +162,21 @@ body {
 .page-nav__link:hover {
 	color: #323232;
 
-	border-bottom: none;
+	border-bottom: transparent;
 	background-color: #f7f6f3;
 }
 
 .page-nav__link:focus {
 	color: #323232;
 
-	border-bottom: none;
+	border-bottom: transparent;
 	background-color: #ededed;
 }
 
 .page-nav__link--active {
 	color: #fff;
 
-	border-bottom: none;
+	border-bottom: transparent;
 	background-color: #d07058;
 }
 
@@ -408,7 +408,7 @@ body {
 	line-height: 18px;
 	color: #fff;
 
-	border: none;
+	border: transparent;
 }
 
 /* Секция с картой и контактами */
