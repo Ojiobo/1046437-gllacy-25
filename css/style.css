@@ -70,7 +70,8 @@ body {
 /* Состояния для текстовых полей */
 
 .page-body input[type="text"],
-.page-body input[type="password"] {
+.page-body input[type="password"],
+.page-body input[type="search"] {
 	height: 42px;
 
 	font-size: 16px;
@@ -84,24 +85,28 @@ body {
 }
 
 .page-body input[type="text"]::-moz-placeholder,
-.page-body input[type="password"]::-moz-placeholder {
+.page-body input[type="password"]::-moz-placeholder,
+.page-body input[type="search"]::-moz-placeholder {
 	color: #999;
 	font-weight: 400;
 }
 
 .page-body input[type="text"]::-webkit-input-placeholder,
-.page-body input[type="password"]::-webkit-input-placeholder {
+.page-body input[type="password"]::-webkit-input-placeholder,
+.page-body input[type="search"]::-webkit-input-placeholder {
 	color: #999;
 	font-weight: 400;
 }
 
 .page-body input[type="text"]:hover,
-.page-body input[type="password"]:hover {
+.page-body input[type="password"]:hover,
+.page-body input[type="search"]:hover {
 	border: 2px solid #c7c6c5;
 }
 
 .page-body input[type="text"]:focus,
-.page-body input[type="password"]:focus {
+.page-body input[type="password"]:focus,
+.page-body input[type="search"]:focus {
 	border: 2px solid #8fbdec;
 	outline: none;
 }
@@ -110,6 +115,8 @@ body {
 
 .btn--orange {
 	position: relative;
+
+	font-weight: bold;
 
 	background-image: linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
 	border-radius: 35px;
@@ -537,4 +544,28 @@ body {
 	font-size: 14px;
 	line-height: 16px;
 	color: #fff;
+}
+
+/* Поп-ап логина */
+
+.pop-up-login__form {
+	background-color: #f8f7f4;
+}
+
+.pop-up-login__form input[type="text"],
+.pop-up-login__form input[type="password"] {
+	font-size: 14px;
+}
+
+.pop-up-login__form .pop-up-login__btn {
+	font-size: 18px;
+}
+
+.pop-up-login__form .pop-up-login__link {
+	font: inherit;
+	font-size: 13px;
+	line-height: 24px;
+	color: #323232;
+
+	border-bottom: 1px solid #323232;
 }
