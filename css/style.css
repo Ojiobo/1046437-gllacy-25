@@ -5,7 +5,7 @@
 .pop-up,
 .modal,
 .card-product--hover {
-	display: none;
+	displa: none;
 }
 
 .visually-hidden {
@@ -43,6 +43,15 @@ body {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.btn {
+	display: inline-block;
+
+	color: #fff;
+	font-family: inherit;
+
+	border: 0;
 }
 
 /* Состояния для ссылок */
@@ -221,8 +230,7 @@ body {
 
 /* Кнопки UI в шапке */
 
-.pop-up-page-search__btn,
-.interface-btn {
+.btn-ui {
 	color: #fff;
 	font-size: 14px;
 	font-weight: 500;
@@ -231,7 +239,7 @@ body {
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-.interface-btn:hover {
+.interface-btns-list .btn-ui:hover {
 	color: #323232;
 
 	background-color: #f8f7f4;
