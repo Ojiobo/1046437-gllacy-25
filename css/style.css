@@ -69,12 +69,10 @@ body {
 
 /* Состояния для текстовых полей */
 
-.page-body input[type="text"],
-.page-body input[type="password"],
-.page-body input[type="search"] {
+.input-style {
 	height: 42px;
 
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	line-height: 24px;
 	color: #323232;
@@ -84,29 +82,21 @@ body {
 	background-color: rgb(255, 255, 255);
 }
 
-.page-body input[type="text"]::-moz-placeholder,
-.page-body input[type="password"]::-moz-placeholder,
-.page-body input[type="search"]::-moz-placeholder {
+.input-style::-moz-placeholder {
 	color: #999;
 	font-weight: 400;
 }
 
-.page-body input[type="text"]::-webkit-input-placeholder,
-.page-body input[type="password"]::-webkit-input-placeholder,
-.page-body input[type="search"]::-webkit-input-placeholder {
+.input-style::-webkit-input-placeholder {
 	color: #999;
 	font-weight: 400;
 }
 
-.page-body input[type="text"]:hover,
-.page-body input[type="password"]:hover,
-.page-body input[type="search"]:hover {
+.input-style:hover {
 	border: 2px solid #c7c6c5;
 }
 
-.page-body input[type="text"]:focus,
-.page-body input[type="password"]:focus,
-.page-body input[type="search"]:focus {
+.input-style:focus {
 	border: 2px solid #8fbdec;
 	outline: none;
 }
@@ -250,12 +240,6 @@ body {
 	color: #323232;
 
 	background-color: #f8f7f4;
-}
-
-/* Поле поиска в шапке */
-
-.page-body input[type="search"] {
-	font-size: 14px;
 }
 
 /* Информация в шапке */
@@ -404,6 +388,11 @@ body {
 	color: #5a5a5a;
 
 	background-color: #f8f7f4;
+}
+
+.subscribe-form input[type="text"],
+.subscribe-form input[type="password"] {
+	font-size: 16px;
 }
 
 .subscribe-form__btn {
@@ -558,11 +547,6 @@ body {
 	background-color: #f8f7f4;
 }
 
-.pop-up-login__form input[type="text"],
-.pop-up-login__form input[type="password"] {
-	font-size: 14px;
-}
-
 .pop-up-login__form .pop-up-login__btn {
 	font-size: 18px;
 }
@@ -575,3 +559,5 @@ body {
 
 	border-bottom: 1px solid #323232;
 }
+
+/* Модальное окно обратной связи */
