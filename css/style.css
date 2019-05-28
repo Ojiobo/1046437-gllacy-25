@@ -252,6 +252,12 @@ body {
 	background-color: #f8f7f4;
 }
 
+/* Поле поиска в шапке */
+
+.page-body input[type="search"] {
+	font-size: 14px;
+}
+
 /* Информация в шапке */
 
 .work-time {
