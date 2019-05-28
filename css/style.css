@@ -561,3 +561,45 @@ body {
 }
 
 /* Модальное окно обратной связи */
+
+.modal-feedback {
+	background-color: #f8f7f4;
+}
+
+.modal-feedback__info {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #323232;
+}
+
+.modal-feedback .modal-feedback__btn-send {
+	font-size: 18px;
+}
+
+/* Окно Корзины */
+
+.pop-up-cart {
+	font-size: 13px;
+	line-height: 16px;
+	color: #323232;
+
+	background-color: #f8f7f4;
+}
+
+.td-price {
+	color: #999;
+}
+
+.pop-up-cart td[colspan="5"] {
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+.pop-up-cart .pop-up-cart__link {
+	font-size: 18px;
+}
+
+/* Карточка продукта при наведении */
+
